@@ -1,0 +1,84 @@
+.input-container{
+	position:relative;
+  margin-bottom:25px;
+  width: 80%;
+  margin-left:10%
+}
+
+
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+	transition: all 0.5s ease-in-out;
+}
+
+.input-container span{
+  color: red;
+  font-size: 13px;
+}
+.input-container input{ 
+  border:0;
+  border-bottom:1px solid #555;  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+}
+.input-container input:focus{ 
+ border:none;	
+ outline:none;
+ border-bottom:1px solid #e74c3c;	
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+}
+
+.image-logo{
+  height:100px;
+}
+
+.image-logo img{
+  height: 80%;
+  margin-top: 10px;
+}
+
+a{
+  color: 	black;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.bi-folder{
+  margin-left:-20px;
+}
+
+.bi-caret-down-fill, .bi-caret-up-fill{
+  margin-left:50%
+}
+
+.folder_menu{
+  margin-left: 8%;
+}
+
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image_div img {
+  width: 100%;
+  margin-top: 8px;
+  /* filter: grayscale(100%); */
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+}
